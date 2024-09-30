@@ -21,11 +21,6 @@ public class FridayDiscount extends BaseDiscount {
     }
 
     @Override
-    public double apply(Product product) {
-        return 0;
-    }
-
-    @Override
     public String getDescription(Product product) {
         return "10% discount on fridays. " + super.getDescription(product);
     }
