@@ -13,17 +13,11 @@ public class QuantityDiscount extends BaseDiscount {
 
     @Override
     protected double calculateDiscount(Product product) {
-        return 0;
-    }
-
-    @Override
-    public double apply(Product product) {
-        super.apply(product);
-        return 0;
+        return product.getQuantity() * 10;
     }
 
     @Override
     public String getDescription(Product product) {
-        return "If you buy 5 or more items you get a 10kr discount on every item";
+        return "If you buy 5 or more items you get a 10kr discount on every item" + super.getDescription(product);
     }
 }

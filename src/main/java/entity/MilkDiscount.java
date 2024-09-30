@@ -8,21 +8,17 @@ public class MilkDiscount extends BaseDiscount{
 
     @Override
     protected boolean isApplicable(Product product) {
-        return product.getProductName().equals("Milk");
+        return product.getProductName().equalsIgnoreCase("milk");
     }
 
     @Override
     protected double calculateDiscount(Product product) {
-        return product.getProductPrice() * 0.5;
+        return product.getProductPrice() * 0.05;
     }
 
     @Override
-    public void apply(Product product) {
-        super.apply(product);
-    }
+    public String getDescription(Product product) {
+        return "5% discount on milk. " + super.getDescription(product);
 
-    @Override
-    public void getDescription(Product product) {
-        super.getDescription(product);
     }
 }

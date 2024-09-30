@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5f95e0-8533-487a-b64d-6c1c9b8f6540" name="Changes" comment="">
+    <list default="true" id="cc5f95e0-8533-487a-b64d-6c1c9b8f6540" name="Changes" comment="to pc">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/BaseDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Discount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/FridayDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/MilkDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/QuantityDiscount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/BaseDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/BaseDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/FridayDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/FridayDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/MilkDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/MilkDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/QuantityDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/QuantityDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "simonpizevski"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/simonpizevski/sysark_lab1.git",
+    "accountId": "6b41b3c6-d237-4a10-8e7d-87fa6d8d280c"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -37,6 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -71,11 +79,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726781514667</updated>
-      <workItem from="1726781515661" duration="1894000" />
+      <workItem from="1726781515661" duration="6912000" />
     </task>
+    <task id="LOCAL−00001" summary="to pc">
+      <option name="closed" value="true" />
+      <created>1727372615414</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1727372615414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="to pc" />
+    <option name="LAST_COMMIT_MESSAGE" value="to pc" />
   </component>
 </project>
